@@ -1,0 +1,221 @@
+
+
+body {
+  font-family: Palatino;
+  background: #285E75;
+
+}
+
+header {
+      background: url(https://anzemo.github.io/cybercrime/background.jpg);
+      background-size: auto 350px;
+}
+
+footer {
+      position: relative;
+      height: 200px;
+      margin-top: -200;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+
+}
+
+
+h1 {
+  color: orange;
+  text-align: center;
+  font-size: 500%;
+}
+
+h2 {
+  color: orange;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.navbar {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #ffedcc;
+  overflow: visible;
+}
+
+.navbar a.active {
+  background-color: #ffc966;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: static;
+  background-color: #555;
+  box-sizing: border-box;
+  width: 20%;
+  border: 1px solid white;
+}
+
+
+.navbar a:hover {
+  background-color: gray;
+}
+
+.dropdown {
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #555;
+  width: 20%;
+  z-index: 1;
+  left: 20%;
+  top: 45px;
+}
+
+.dropdown-content a {
+  color: white ;
+  padding: 14px 16px;
+  display: block;
+  float: left;
+  font-size: 16px;
+  text-align: left;
+  background-color: #555;
+  width: 80%;
+  box-sizing: content-box;
+  border: none;
+}
+
+.dropdown:hover .dropdown-content  {
+  display: block;
+}
+
+.dropdown-content a:hover{
+  background-color: gray;
+}
+
+.Uvod {
+  color: white;
+  text-align: justify;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  font-size: 20px;
+  margin-top: 100px;
+
+}
+
+.besedilo {
+  color: white;
+  text-align: justify;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.besedilo li {
+  margin-left: 10px;
+  margin-top: 25px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.besedilo a {
+  color: white;
+}
+
+.besedilo p {
+  margin-right: 15px;
+  margin-right: 20px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #555;
+  padding: 10px;
+  color: orange;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+.container h2{
+  text-align: left;
+  margin-left: 5%;
+}
+
+.container button {
+  background-color: orange;
+  border-color: white;
+  font-color: #555;
+  font-size: 100%;
+  float: right;
+  margin-top: 10%;
+  margin-right: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tema {
+  float: left;
+  margin-left: 5%;
+  margin-right: auto;
+
+}
+.tema textarea {
+  height: 85px;
+
+}
+
+.zoom {
+ margin-left: 20px;
+}
+
+.zoom:hover{
+  margin-left: 50px;
+  transform: scale(1.5);
+}
+
+.besedilo-boj {
+  color: white;
+  text-align: left;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.besedilo-boj li {
+  margin-left: 50px;
+}
