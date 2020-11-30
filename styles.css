@@ -2,13 +2,12 @@
 
 body {
   font-family: Palatino;
-  background: #285E75;
+  background: url(anzemo.github.io/bozic2020/ozadje);
 
 }
 
 header {
-      background: url(https://anzemo.github.io/cybercrime/background.jpg);
-      background-size: auto 350px;
+      background-color:red;
 }
 
 footer {
